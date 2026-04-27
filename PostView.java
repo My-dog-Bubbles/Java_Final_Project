@@ -8,12 +8,11 @@ Description: This file creats a visual for each of the social medias platforms. 
 import java.util.*
 
 public class PostView {
-
     // basic pot format
     public static void displayPost(String username, String post, Int post_date){
-        System.out.println(username)
-        System.out.println(post)
-        System.out.println(post_date)
+        System.out.println(username);
+        System.out.println(post);
+        System.out.println(post_date);
     }
 
     // this display syntax based on the social media platform

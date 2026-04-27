@@ -7,11 +7,11 @@ Description: This file
 
 import java.util.*
 
-public class PostController(){
-    private Post model;
-    private PostView view;
+public class ScoreController(){
+    private Score model;
+    private ScoreView view;
 
-    public PostController(Post model, PostView view){
+    public PostController(Score model, ScoreView view){
         this.model;
         this.view;
     }

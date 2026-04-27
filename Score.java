@@ -2,7 +2,7 @@
 Name: Angel Carmichael
 Date: 04/29/26
 
-Description: This file stores the users score of how shitty their post was. 
+Description: This file scores the users score of how shitty their post was. 
 */
 
 import java.util.*
@@ -20,11 +20,36 @@ public class Score{
         this.username = username;
     }
 
-    pubilc int score(){
-        return score
+    pubilc int get_score(){
+        String[] shittines = ["arse", "arsehead", "arsehole", "ass", "asshole", 
+                                "bastard", "bitch", "bloody", "bollocks", "brotherfucker", "bugger", "bullshit", 
+                                "chigga", "child-fucker", "cock", "cocksucker", "crap", "cunt", 
+                                "dammit", "damn", "damned", "dick", "dick-head", "dickhead", "dumb", "dumb-ass", "dumbass", "dyke", "da"
+                                "fag", "faggot", "father-fucker", "fatherfucker", "fuck", "fucked", "fucker", "fucking", 
+                                "goddammit", "goddamn", "goddamned", "goddamnit", "godsdamn", 
+                                "hell", "horseshit", 
+                                "jack-ass", "jackass", 
+                                "kike", 
+                                "mother fucker", "mother-fucker", "motherfucker", 
+                                "nigga", "nigger", 
+                                "pigfucker", "piss off", "prick", "pussy", 
+                                "shit", "shite", "sisterfuck", "sisterfucker", "slut", "spastic", 
+                                "tranny", "twat"
+                                "wanker"]
+
+        // add one point to the score for each time one of the curse word is in the post
+
+        // loops though each word
+        for (word in shittines){
+            // add 1 to score each time to word apperars 
+            for (word in get_post()){
+                score =+ score;
+            }
+        }
+        return score;
     }
 
-    public String username(){
-        return username
+    public String get_username(){
+        return username;
     }
 }
