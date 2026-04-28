@@ -12,12 +12,20 @@ public class Post {
 
     // hold 
     private String username = "";
+    private String enemyUsername = "";
     private int post_date = 0;
     private String post = "";
     private String social_media = "";  
 
+    public Post(){
+        this.username = username;
+        this.post_date = post_date;
+        this.post = post;
+        this.social_media = social_media;
+    }
+
     // constructor for Post class
-    public Post(tring username, Int post_date){
+    public Post(String username, String username, int post_date, String post, String social_media){
         this.username = username;
         this.post_date = post_date;
         this.post = post;
@@ -50,7 +58,7 @@ public class Post {
         this.post = post;
     }
 
-    public void setSocial_media(String social_media){
+    public void setSocialMedia(String social_media){
         this.social_media = social_media;
     }
 }

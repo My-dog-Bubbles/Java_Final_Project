@@ -9,36 +9,60 @@ import java.util.*
 
 public class PostView {
     // basic pot format
-    public static void displayPost(String username, String post, Int post_date){
-        System.out.println(username);
-        System.out.println(post);
-        System.out.println(post_date);
-    }
-
-    // this display syntax based on the social media platform
-    public static void displayInsta(){
-        System.out.println("+-------------------------------------------+");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("+-------------------------------------------+");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("+-------------------------------------------+");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("+-------------------------------------------+");
+    public static void displayPost(String username = "bland", String enemyUser = "opperson", String post = "type here", String platform){
+        if (platform == "Instagram"){
+            System.out.println("+-------------------------------------------+");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("+-------------------------------------------+");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("+-------------------------------------------+");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("+-------------------------------------------+");
+        }
+        if (platform == "Tiktok"){
+            System.out.println("+-------------------------------------------+");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("+-------------------------------------------+");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("|                                           |");
+            System.out.println("+-------------------------------------------+");
+        }
     }
 
     public static void displayTwitter(){
@@ -47,30 +71,6 @@ public class PostView {
 
     public static void displayRedit(){
 
-    }
-
-    public static void displayTikTok(){
-        System.out.println("+-------------------------------------------+");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("+-------------------------------------------+");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("|                                           |");
-        System.out.println("+-------------------------------------------+");
     }
 
     public static void displaySnap(){

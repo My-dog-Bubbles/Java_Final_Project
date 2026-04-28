@@ -6,6 +6,7 @@ Description: This file
 */
 
 import java.util.*
+// you have to import the file into controller
 
 public class ScoreController(){
     private Score model;
@@ -16,5 +17,9 @@ public class ScoreController(){
         this.view;
     }
 
-    
+    public void showScore(String username, String post){
+        String username = model.getUsername();
+        String post = model.getUsername();
+        view.displayScore(username, post)
+    }    
 }
