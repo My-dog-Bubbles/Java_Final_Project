@@ -22,20 +22,20 @@ public class Score{
 
     pubilc int get_score(){
         String[] shittines = ["arse", "arsehead", "arsehole", "ass", "asshole", 
-                                "bastard", "bitch", "bloody", "bollocks", "brotherfucker", "bugger", "bullshit", 
-                                "chigga", "child-fucker", "cock", "cocksucker", "crap", "cunt", 
+                                "bastard", "bitch", "bitchass", "bitch-ass", "bloody", "bollocks", "brotherfucker", "bugger", "bullshit", 
+                                "chigga", "child-fucker", "chin chong", "cock", "cocksucker", "coonass", "crap", "cunt", 
                                 "dammit", "damn", "damned", "dick", "dick-head", "dickhead", "dumb", "dumb-ass", "dumbass", "dyke", "da"
                                 "fag", "faggot", "father-fucker", "fatherfucker", "fuck", "fucked", "fucker", "fucking", 
-                                "goddammit", "goddamn", "goddamned", "goddamnit", "godsdamn", 
+                                "gay", "goddammit", "goddamn", "goddamned", "goddamnit", "godsdamn", 
                                 "hell", "horseshit", 
                                 "jack-ass", "jackass", 
                                 "kike", 
-                                "mother fucker", "mother-fucker", "motherfucker", 
+                                "mother-fucker", "motherfucker", 
                                 "nigga", "nigger", 
-                                "pigfucker", "piss off", "prick", "pussy", 
-                                "shit", "shite", "sisterfuck", "sisterfucker", "slut", "spastic", 
+                                "pedo", "pigfucker", "pig-fucker", "piss off", "prick", "pussy", 
+                                "shit", "shite", "sister-fucker", "sister-fucker", "slut", "spastic", 
                                 "tranny", "twat"
-                                "wanker"]
+                                "wanker", "Wetback", "Whore"]
 
         // add one point to the score for each time one of the curse word is in the post
 

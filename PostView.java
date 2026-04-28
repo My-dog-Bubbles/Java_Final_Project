@@ -17,7 +17,28 @@ public class PostView {
 
     // this display syntax based on the social media platform
     public static void displayInsta(){
-
+        System.out.println("+-------------------------------------------+");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("+-------------------------------------------+");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("+-------------------------------------------+");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("+-------------------------------------------+");
     }
 
     public static void displayTwitter(){
@@ -29,7 +50,27 @@ public class PostView {
     }
 
     public static void displayTikTok(){
-
+        System.out.println("+-------------------------------------------+");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("+-------------------------------------------+");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("|                                           |");
+        System.out.println("+-------------------------------------------+");
     }
 
     public static void displaySnap(){
