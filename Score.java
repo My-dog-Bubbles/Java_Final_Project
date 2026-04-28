@@ -43,7 +43,7 @@ public class Score{
         for (word in shittines){
             // add 1 to score each time to word apperars 
             for (word in get_post()){
-                score =+ score;
+                score += score;
             }
         }
         return score;

@@ -19,7 +19,7 @@ public class ScoreController(){
 
     public void showScore(String username, String post){
         String username = model.getUsername();
-        String post = model.getUsername();
-        view.displayScore(username, post)
+        String score = model.getScore(post);
+        view.displayScore(username, score);
     }    
 }
