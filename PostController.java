@@ -1,16 +1,8 @@
-/* 
-Name: Angel Carmichael
-Date: 04/29/26
-
-Description: This file handles the control logic for creating and managing posts
-using the MVC design pattern. It connects the Post model with the PostView.
- */
-
 /**
- * Controller class in the MVC pattern that manages interaction between
- * the Post model and the PostView.
- * It processes user input, updates the model, and sends data to the view
- * for display.
+ * Controller class in the MVC pattern that connects the Post model
+ * with the PostView.
+ * It handles user input, updates the model with post data, and
+ * passes information to the view for display.
  */
 public class PostController {
 
@@ -18,10 +10,10 @@ public class PostController {
     private PostView view;
 
     /**
-     * Constructs a PostController with a given model and view.
+     * Constructs a PostController with the specified model and view.
      *
-     * @param model the Post model containing post data
-     * @param view the PostView responsible for displaying post data
+     * @param model the Post model that stores post data
+     * @param view the PostView responsible for displaying output
      */
     public PostController(Post model, PostView view) {
         this.model = model;
@@ -29,23 +21,24 @@ public class PostController {
     }
 
     /**
-     * Default method to set a placeholder post when no user input is provided.
+     * Displays the visual layout for the selected social media platform.
      *
-     * @param platform the social media platform being used
+     * @param platform the social media platform to display (e.g., Instagram, TikTok)
      */
     public void choosePlatform(String platform) {
-        choosePlatform("bland", "opperson", "type here", platform);
+        view.displayPost(platform);
     }
 
     /**
-     * Sets post data in the model and sends it to the view for display.
+     * Creates a post by updating the model with user input and sending
+     * the formatted data to the view for display.
      *
      * @param user the username of the post creator
-     * @param enemyUser the target username
+     * @param enemyUser the target username being referenced in the post
      * @param posts the content of the post
-     * @param platform the social media platform
+     * @param platform the social media platform used
      */
-    public void choosePlatform(String user, String enemyUser, String posts, String platform) {
+    public void createPost(String user, String enemyUser, String posts, String platform) {
         model.setUsername(user);
         String username = model.getUsername();
 
@@ -59,6 +52,6 @@ public class PostController {
         String socialMedia = model.getSocialMedia();
 
         // want to add that current time is taken by display post
-        view.displayPost(username, enemyUser, post, socialMedia);
+        view.displayPost(username, enemyUsername, post, model.getPostDate(), socialMedia);
     }
 }
