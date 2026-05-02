@@ -3,8 +3,8 @@
 ## Name: Let's S*** Post
 
 ## Project Summary
-This site allows people to rant out all of their feelings without the consequence of it for ever 
-being online. You an choose the person you are talking the platform (Instagram or Tiktok). It also scores you on how mean the post is and the end giving you a title based on how mean your post is. Game play is consle based and test are done through eclipse.
+This site allows people to rant out all of their feelings without the consequence of it
+being online. You an choose the person you are talking and the platform (Instagram or Tiktok). It also scores you on how mean the post is at the end giving you a title based on how mean your post is. Game play is consle based and test are done through eclipse.
 
 ## How to Run the Project
 1. java files in in github
