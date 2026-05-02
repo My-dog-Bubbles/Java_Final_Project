@@ -10,10 +10,8 @@ import java.util.*;
 /**
  * View class in the MVC pattern responsible for rendering social media-style
  * post layouts.
- * <p>
  * This class generates ASCII-based representations of different platforms
  * (Instagram and TikTok) and formats post content for display.
- * </p>
  */
 public class PostView {
 
