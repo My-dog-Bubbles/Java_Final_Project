@@ -64,7 +64,7 @@ public class PostView {
             System.out.println("|                                           |");
             System.out.println("| #Magic #viral                             |");
             System.out.println("|___________________________________________|");
-            System.out.println("|   🏠︎      🔍︎      [ + ]      ✉      👤   |");
+            System.out.println("|                  [ + ]                    |");
             System.out.println("+-------------------------------------------+");
         }
     }
