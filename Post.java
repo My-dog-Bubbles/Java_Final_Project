@@ -5,47 +5,33 @@ Date: 04/29/26
 Description: This file stores the post information and allows for editing of username and post.
  */
 
+import java.util.Date;
+
 /**
  * Represents a social media post in the application.
- * This class stores information about a post including the username,
- * target username, post date, post content, and social media platform.
- * It provides constructors, getters, and setters to manage post data.
+ * This class stores all data related to a post, including the username,
+ * target user (enemy username), post content, social media platform,
+ * and the timestamp when the post object was created.
  */
 public class Post {
 
     // hold 
-    private String username = "";
-    private String enemyUsername = "";
-    private int post_date = 0;
-    private String post = "";
-    private String social_media = "";
+    private String username;
+    private String enemyUsername;
+    private Date postDate;
+    private String post;
+    private String socialMedia;
 
     /**
-     * Default constructor that initializes all fields to default empty values.
+     * Default constructor that initializes all fields with empty values
+     * and sets the post date to the current system time.
      */
     public Post() {
         this.username = "";
         this.enemyUsername = "";
-        this.post_date = 0;
+        this.postDate = new Date();
         this.post = "";
-        this.social_media = "";
-    }
-
-    /**
-     * Constructs a Post object with specified values for all fields.
-     *
-     * @param username the username of the post creator
-     * @param enemyUsername the target username of the post
-     * @param post_date the date the post was created (as an integer representation)
-     * @param post the content of the post
-     * @param social_media the social media platform
-     */
-    public Post(String username, String enemyUsername, int post_date, String post, String social_media) {
-        this.username = username;
-        this.enemyUsername = enemyUsername;
-        this.post_date = post_date;
-        this.post = post;
-        this.social_media = social_media;
+        this.socialMedia = "";
     }
 
     /**
@@ -58,7 +44,7 @@ public class Post {
     }
 
     /**
-     * Gets the username of the opps user.
+     * Gets the username of the target (enemy) user.
      *
      * @return the enemy username
      */
@@ -67,12 +53,12 @@ public class Post {
     }
 
     /**
-     * Gets the post date value.
+     * Gets the date and time the post was created.
      *
-     * @return the post date as an integer
+     * @return the post creation date
      */
-    public int getPost_Date() {
-        return post_date;
+    public Date getPostDate() {
+        return postDate;
     }
 
     /**
@@ -90,7 +76,7 @@ public class Post {
      * @return the social media platform
      */
     public String getSocialMedia() {
-        return social_media;
+        return socialMedia;
     }
 
     /**
@@ -103,7 +89,7 @@ public class Post {
     }
 
     /**
-     * Sets the username of the opps user.
+     * Sets the username of the target (enemy) user.
      *
      * @param enemyUsername the enemy username to set
      */
@@ -123,9 +109,9 @@ public class Post {
     /**
      * Sets the social media platform for the post.
      *
-     * @param social_media the platform name to set
+     * @param socialMedia the platform name to set
      */
-    public void setSocialMedia(String social_media) {
-        this.social_media = social_media;
+    public void setSocialMedia(String socialMedia) {
+        this.socialMedia = socialMedia;
     }
 }
