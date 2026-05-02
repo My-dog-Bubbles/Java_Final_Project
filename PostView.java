@@ -58,9 +58,9 @@ public class PostView {
             System.out.println("||_____/ \\_______)         |_________|      |");
             System.out.println("|                                           |");
             System.out.println("|       'Are They Floating?'                |");
-            System.out.println("|                                           |");
-            System.out.println("|                                           |");
-            System.out.println("| @The_Opps                                 |");
+            System.out.println("|                                  (like)   |");
+            System.out.println("|                                 (comment) |");
+            System.out.println("| @The_Opps                        (share)  |");
             System.out.println("|                                           |");
             System.out.println("| #Magic #viral                             |");
             System.out.println("|___________________________________________|");
