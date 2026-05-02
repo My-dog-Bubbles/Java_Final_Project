@@ -1,9 +1,10 @@
 # Java_Final_Project
 
-# Name: Let's S*** Post
+## Name: Let's S*** Post
 
 ## Project Summary
-console-based simulation game that allows users to create fictional social media posts and receive a "toxicity score" based on the language used. The program evaluates the post content and assigns a score representing how "hateful" or "toxic" the message is. The goal of this project is to demonstrate the **Model-View-Controller (MVC) design pattern** in a structured Java application.
+This application allows people to rant out all of their feelings without the consequence of it for ever 
+being online. You an choose the person you are talking the platform (Instagram or Tiktok). It also scores you on how mean the post is and the end giving you a title based on how mean your post is. Game play is consle based and test are done through eclipse.
 
 ## How to Run the Project
 1. java files in in github
