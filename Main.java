@@ -2,14 +2,25 @@
 Name: Angel Carmichael
 Date: 04/29/26
 
-Description: This file uses the MVC to allow the use to play the game Let's shit post. This is where the user input is gotten.
+Description: This file uses the MVC to allow the user to play the game Let's shit post. This is where the user input is gotten.
  */
 
 import java.util.*;
 
-// output for everything
+/**
+ * Main entry point for the "Let's Shit Post" application.
+ * This program demonstrates an MVC-style structure where the user selects a
+ * social media platform, enters a username, target user, and message, and
+ * then generates a "shit post" along with a score evaluation.
+ */
 public class Main {
 
+    /**
+     * Runs the application, collects user input from the console,
+     * and passes data to the controller classes.
+     *
+     * @param args command-line arguments (not used)
+     */
     public static void main(String[] args) {
         // game intro
         System.out.println("WELCOME TO SHIT POST!!!");
@@ -21,6 +32,7 @@ public class Main {
 
         // get the user info so I can make post object
         Scanner keyboard = new Scanner(System.in);
+
         System.out.print("What platform would you like to use?: ");
         String platform = keyboard.next();
         post1.choosePlatform(platform);
