@@ -9,10 +9,8 @@ a user's post is based on keyword detection.
 /**
  * Controller class in the MVC pattern responsible for calculating and
  * displaying a "shittiness" score for a post.
- * <p>
  * It analyzes post content, assigns a score based on keyword matches,
  * and sends the result to the ScoreView for display.
- * </p>
  */
 public class ScoreController {
 
