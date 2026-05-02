@@ -54,10 +54,8 @@ public class ScoreController {
 
     /**
      * Calculates a "shittiness" score based on keyword matches in a post.
-     * <p>
      * Each word in the post is compared against a predefined list of
      * negative or insulting words. Each match increases the score by 1.
-     * </p>
      *
      * @param post the post content to analyze
      * @return the calculated score based on keyword matches
